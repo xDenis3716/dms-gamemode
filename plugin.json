@@ -1,0 +1,11 @@
+{
+  "id": "gamemode",
+  "name": "Game Mode",
+  "description": "Toggle to strip visual effects (rounding, shadows, blur, border, animations) for lower-latency gaming. Restores your exact previous values when turned off, all via hyprctl through Quickshell - never edits hyprland.lua.",
+  "version": "1.0.0",
+  "author": "you",
+  "icon": "sports_esports",
+  "type": "widget",
+  "component": "./GameMode.qml",
+  "permissions": ["settings_read", "settings_write", "process"]
+}
